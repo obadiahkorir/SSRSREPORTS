@@ -1,0 +1,48 @@
+﻿
+@model SampleDemoMVC.Models.Ward
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+<form asp-action="Index" class="form-paginated">
+    <div class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label">Beneficiary ID</label>
+                <select class="form-control"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <select asp-for="Id" class="form-control required" asp-items="ViewBag.CountyId">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label">Sex ID</label>
+                <select class="form-control getConstituencies">
+                    <option value="">Select</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Relationship ID</label>
+                <select class="form-control getConstituencies">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-success btn-filter btn-block  btn-sm">
+            <i class="fa fa-filter"></i> Filter
+        </button>
+        <button type="button" class="btn btn-default btn-sm btn-reset btn-block">
+            <i class="fa fa-eraser"></i> Clear
+        </button>
+    </div>
+</form>
