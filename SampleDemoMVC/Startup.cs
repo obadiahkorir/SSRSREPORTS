@@ -15,6 +15,7 @@ using System.Text;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using BoldReports.Web;
 using SampleDemoMVC.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SampleDemoMVC
 {
@@ -46,7 +47,7 @@ namespace SampleDemoMVC
             //services.AddDbContext<SampleDemoMVCContext>(options =>
             //        options.UseSqlServer(Configuration.GetConnectionString("SampleDemoMVCContext")));
             services.AddControllersWithViews();
-            services.AddMvc();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddCors(o => o.AddPolicy("AllowAllOrigins", builder =>
             {
                 builder.AllowAnyOrigin()

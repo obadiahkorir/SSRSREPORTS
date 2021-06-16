@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\SSRS\\SampleDemoMVC\\SampleDemoMVC\\SampleDemoMVC.csproj": {}
+    "C:\\Projects\\SSRSREPORTS\\SampleDemoMVC\\SampleDemoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\SSRS\\SampleDemoMVC\\SampleDemoMVC\\SampleDemoMVC.csproj": {
+    "C:\\Projects\\SSRSREPORTS\\SampleDemoMVC\\SampleDemoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\SSRS\\SampleDemoMVC\\SampleDemoMVC\\SampleDemoMVC.csproj",
+        "projectUniqueName": "C:\\Projects\\SSRSREPORTS\\SampleDemoMVC\\SampleDemoMVC.csproj",
         "projectName": "SampleDemoMVC",
-        "projectPath": "C:\\Projects\\SSRS\\SampleDemoMVC\\SampleDemoMVC\\SampleDemoMVC.csproj",
-        "packagesPath": "C:\\Users\\Obadiah Korir.DESKTOP-FFAAKTS.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\SSRS\\SampleDemoMVC\\SampleDemoMVC\\obj\\",
+        "projectPath": "C:\\Projects\\SSRSREPORTS\\SampleDemoMVC\\SampleDemoMVC.csproj",
+        "packagesPath": "C:\\Users\\ObadiahKorir\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SSRSREPORTS\\SampleDemoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Obadiah Korir.DESKTOP-FFAAKTS.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ObadiahKorir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
